@@ -3,17 +3,24 @@
 
 class Entity {
 private:
-	float x, y;
-	Spritesheet spritesheet;
-
+	int x, y, speed_x, speed_y;
 public:
-	Entity(Spritesheet spritesheet, float x, float y);
+	Entity(int x, int y);
 	~Entity();
 
-	void drawSprite(SDL_Surface* window_surface, SDL_Rect* position);
+	const int getX() const;
+	const int getY() const;
+	const int getSpeedX() const;
+	const int getSpeedY() const;
+	void setX(int x);
+	void setY(int y);
+	void setSpeedX(int speed);
+	void setSpeedY(int speed);
+	void modSpeedX(int speed);
+	void modSpeedY(int speed);
+	void modSpeeds(int speed_x, int speed_y);
+	void move(double multi = 1, SDL_Rect* obj_size_bounds = NULL);
 
-	const float getX() const;
-	const float getY() const;
-	void setX(float x);
-	void setY(float y);
+	virtual void draw() = 0;
+	virtual void update() = 0;
 };

@@ -1,0 +1,13 @@
+﻿  Application.cpp
+  Bullet.cpp
+C:\Users\herrm\source\repos\Deathtal\Lab6\Task2\Bullet.cpp(4,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Entity.cpp
+C:\Users\herrm\source\repos\Deathtal\Lab6\Task2\Bullet.cpp(5,39): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\herrm\source\repos\Deathtal\Lab6\Task2\Entity.cpp(58,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\herrm\source\repos\Deathtal\Lab6\Task2\Entity.cpp(59,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\herrm\source\repos\Deathtal\Lab6\Task2\Entity.cpp(63,24): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Main.cpp
+  Tank.cpp
+  Generating Code...
+C:\Users\herrm\source\repos\Deathtal\Lab6\Task2\Entity.cpp(66,24): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Task2.vcxproj -> C:\Users\herrm\source\repos\Deathtal\Lab6\x64\Debug\Task2.exe
